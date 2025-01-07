@@ -121,4 +121,7 @@ public class Shield {
     public int getWisMod() {
         return wisdomBonus;
     }
+    public double getWeight(){
+        return weight;
+    }
 }

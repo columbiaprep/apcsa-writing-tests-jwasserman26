@@ -88,7 +88,7 @@ public class MeleeWeapon extends Weapon{
         return this.conMod;
 
     }
-    public void setConModMod(int conMod) {
+    public void setConMod(int conMod) {
         this.conMod = conMod;
     }
     public int getIntMod(){
@@ -105,7 +105,7 @@ public class MeleeWeapon extends Weapon{
     public void setWisMod(int wisMod) {
         this.wisMod = wisMod;
     }
-    public int getChaModMod(){
+    public int getChaMod(){
         return this.chaMod;
 
     }
@@ -148,7 +148,7 @@ public class MeleeWeapon extends Weapon{
         if (weapon.getDexMod() != 1) return false;
 
 
-        weapon.setConModMod(3);
+        weapon.setConMod(3);
         if (weapon.getConMod() != 3) return false;
 
 
@@ -161,7 +161,7 @@ public class MeleeWeapon extends Weapon{
 
 
         weapon.setChaMod(6);
-        if (weapon.getChaModMod() != 6) return false;
+        if (weapon.getChaMod() != 6) return false;
 
 
         return true;
